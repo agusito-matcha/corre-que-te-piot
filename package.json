@@ -1,0 +1,17 @@
+{
+  "name": "corre-que-te-pio",
+  "version": "1.0.0",
+  "description": "CORRE QUE TE PÍO — juego de cartas multijugador online (2–10 jugadores) en el navegador.",
+  "main": "server.js",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "socket.io": "^4.7.5"
+  }
+}
